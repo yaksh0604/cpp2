@@ -1,0 +1,6 @@
+declare
+        great varchar2(30) default 'sy bca class room';
+begin
+        dbms_output.put_line(great);
+end;
+/
